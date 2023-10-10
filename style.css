@@ -48,7 +48,7 @@ header {
     align-items: center;
     gap: 283.29px;
     max-width: 1220px;
-    max-height: 541px;
+    max-height: auto;
 }
 
 
@@ -239,6 +239,7 @@ margin-bottom: 16px;
 .projects-info p:first-child {
     font-weight: 700px;
     font-size: 48px;
+
 }
 
 
@@ -249,7 +250,7 @@ margin-bottom: 16px;
     margin-bottom: 74px;
     
 }
-        
+    
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -262,6 +263,7 @@ margin-bottom: 16px;
     display: flex;
     flex-direction: column;
     gap: 25px;
+    
 }
 
 .card-titles {
@@ -312,6 +314,9 @@ h4 {
     gap: 41px;
     
 }
+.contact a:hover {
+    color: #000;
+}
 .contact a {
     color: #F8EEEF;
     font-family: Nunito;
@@ -343,4 +348,31 @@ padding: 17px;
     Width: 24.15px;
     Height: 22.31px;
     
+}
+
+
+@media screen and (max-width: 900px) {
+* { 
+    flex-wrap: wrap;
+   justify-content: center;
+   text-align: center;
+
+}    
+
+.third-section {
+    height: auto;
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.second-sec-text {
+    width: auto;
+    height: auto;
+    display: flex;
+    text-align: center;
+}
+
+
 }
